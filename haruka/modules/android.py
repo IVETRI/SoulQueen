@@ -525,7 +525,7 @@ __help__ = """
  - /enesrelease: Get the lastest Enes upload
 """
 
-__mod_name__ = "Android"
+__mod_name__ = "Android ❄"
 
 
 GETAEX_HANDLER = DisableAbleCommandHandler("aex", getaex, pass_args=True, admin_ok=True)
