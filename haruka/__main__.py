@@ -28,7 +28,7 @@ I'm control your group to avoiding traders, spammers, 🔞!
 here to help you get around and keep the order in your groups!
 Press /help to continue...
 Deploy a bot like me [now](www.github.com/ivetri/SoulQueen)
-My Developer is*[V⃕ꂅϮℝɪ 🇮🇳](http://t.me/iMvEtRi)*
+My Developer is *[V⃕ꂅϮℝɪ 🇮🇳](http://t.me/iMvEtRi)*
 """
 
 HELP_STRINGS = """
