@@ -131,7 +131,7 @@ Available commands are:
  - /setflood <number/off>: sets the number of messages at which to take action on a user.
 """
 
-__mod_name__ = "AntiFlood"
+__mod_name__ = "AntiFlood❄"
 
 FLOOD_BAN_HANDLER = MessageHandler(Filters.all & ~Filters.status_update & Filters.group, check_flood)
 SET_FLOOD_HANDLER = CommandHandler("setflood", set_flood, pass_args=True, filters=Filters.group)
