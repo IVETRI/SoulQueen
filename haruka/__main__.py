@@ -1,16 +1,7 @@
-import os
+import datetime
 import importlib
 import re
-import datetime
 from typing import Optional, List
-import resource
-import platform
-import sys
-import traceback
-import requests
-from parsel import Selector
-import json
-from urllib.request import urlopen
 
 from telegram import Message, Chat, Update, Bot, User
 from telegram import ParseMode, InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup, KeyboardButton
@@ -18,12 +9,16 @@ from telegram.error import Unauthorized, BadRequest, TimedOut, NetworkError, Cha
 from telegram.ext import CommandHandler, Filters, MessageHandler, CallbackQueryHandler
 from telegram.ext.dispatcher import run_async, DispatcherHandlerStop, Dispatcher
 from telegram.utils.helpers import escape_markdown
-from cinderella import dispatcher, updater, TOKEN, WEBHOOK, SUDO_USERS, OWNER_ID, CERT_PATH, PORT, URL, LOGGER, OWNER_NAME, ALLOW_EXCL, client
-from cinderella.modules import ALL_MODULES
-from cinderella.modules.helper_funcs.chat_status import is_user_admin
-from cinderella.modules.helper_funcs.misc import paginate_modules
-from cinderella.modules.connection import connected
-from cinderella.modules.connection import connect_button
+
+from haruka import dispatcher, updater, TOKEN, WEBHOOK, SUDO_USERS, OWNER_ID, CERT_PATH, PORT, URL, LOGGER, \
+    ALLOW_EXCL
+# needed to dynamically load modules
+# NOTE: Module order is not guaranteed, specify that in the config file!
+from haruka.modules import ALL_MODULES
+from haruka.modules.helper_funcs.chat_status import is_user_admin
+from haruka.modules.helper_funcs.misc import paginate_modules
+from haruka.modules.translations.strings import tld, tld_help 
+from haruka.modules.connection import connected
 
 
 PM_START_TEXT = """
