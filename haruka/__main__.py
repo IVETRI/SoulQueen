@@ -20,26 +20,17 @@ from haruka.modules.helper_funcs.misc import paginate_modules
 from haruka.modules.translations.strings import tld, tld_help 
 from haruka.modules.connection import connected
 
-PM_START = """Hello {}, my name is {}!
+PM_START = """Hello {}, im {}(https://telegra.ph/file/f3e430e05b421e28641a9.jpg)!
 
-You know how hard it is sometimes to manage group so here is the solution for you
+I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of the things I can help you with.
 
-I'm group manager bot and Anti-spam for RR Players🃏
-
-Activate Anti-spam protection in your BM by this command : 
-/antispam on 
-
-Made from the source code of [Aditya 🇮🇳](t.me/xditya)
-
-Special thanks to [this person](t.me/denver02) for helping me.
-
-Deploy a bot like me [now](www.github.com/xditya/GroupManager)
+Deploy a bot like me [now](www.github.com/ivetri/SoulQueen)
 
 Watch [video tutorial](https://www.youtube.com/watch?v=gXXFpTAk6Vo&feature=youtu.be) on deploying me.
 
 Click /help or Help button below to find out more about how to use me to my full potential.
 
- Add me to a group by clicking [here](http://t.me/tg_GroupManagerBot?startgroup=true).
+ Add me to a group by clicking [here](http://t.me/SoulQueenBot?startgroup=true).
 """
 
 
