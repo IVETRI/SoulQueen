@@ -21,7 +21,7 @@ from haruka.modules.translations.strings import tld, tld_help
 from haruka.modules.connection import connected
 
 
-PM_START_TEXT = """
+START_IMG = """
 _வணக்கம்!_ *{}*
 _நான்_ *{}*\n
 💠_சக்திவாய்ந்த Telegram 🤖 ProBot.
