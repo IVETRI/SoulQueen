@@ -20,7 +20,7 @@ from haruka.modules.helper_funcs.misc import paginate_modules
 from haruka.modules.translations.strings import tld, tld_help 
 from haruka.modules.connection import connected
 
-PM_START = """Hello {}, im [ıllı🌟𝐒✺𝖚𝐥 𝐐𝖚𝐞𝐞𝖓🌟ıll](https://telegra.ph/file/f3e430e05b421e28641a9.jpg)!
+PM_START = """Hello {}, im [ıllı🌟𝐒✺𝖚𝐥 𝐐𝖚𝐞𝐞𝖓🌟ıllı](https://telegra.ph/file/f3e430e05b421e28641a9.jpg) !
 
 I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of the things I can help you with.
 
