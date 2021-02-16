@@ -12,14 +12,22 @@ I Product Your Group 🌐 Safe.
 
 A modular Telegram Python bot running on python3 with an sqlalchemy database.
 
-Can be found on telegram as [SoulQueen](https://t.me/GRPCTRLbot).
+Can be found on telegram as [SoulQueen](https://t.me/SoulQueenBot).
 
-Alternatively, [find me on telegram](https://t.me/IMVETRI)! (Keep all support questions in the support chat, where more people can help you.)
+Alternatively, [find me on telegram](https://t.me/iMvEtRi)! (Keep all support questions in the support chat, where more people can help you.)
+
+You can also join our support group [here!](https://t.me/SoulQueenBot)
 
 # Group
-You can also join our support group [here!](https://t.me/TamilSupport)
+[Join Discuss Group](https://t.me/TamilSupport)
 
 # Report error
-Report your problem along with your name to [this person](https://t.me/IMVETRI)
+Report your problem along with your name to [this person](https://t.me/iMvEtRi)
 
+# Credits
 
+This repo is just a custom fork of [HarukaAya](https://github.com/IVETRI/SoulQueenPro) 
+&
+[HarukaAya](https://gitlab.com/HarukaNetwork/OSS/HarukaAya) 
+
+Thanks to the [real developer](https://t.me/RealAkito)!
