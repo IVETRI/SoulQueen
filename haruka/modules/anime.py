@@ -6,7 +6,7 @@ import bs4
 import jikanpy
 import requests
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
-from telegram.ext import CallbackContext, CallbackQueryHandler, run_async
+from telegram.ext import CallbackQueryHandler, run_async
 
 from haruka import DEV_USERS, DRAGONS, OWNER_ID, dispatcher
 from haruka.modules.disable import DisableAbleCommandHandler
