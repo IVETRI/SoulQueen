@@ -65,10 +65,10 @@ def paginate_modules(chat_id, page_n: int, module_dict: Dict, prefix, chat=None)
     if len(pairs) > 7:
         pairs = pairs[modulo_page * 7:7 * (modulo_page + 1)] + [
             (EqInlineKeyboardButton("<<", callback_data="{}_prev({})".format(prefix, modulo_page)),
-             EqInlineKeyboardButton("⬅️ Back", callback_data="bot_start"),
+             EqInlineKeyboardButton("🏡 Home 🏡", callback_data="bot_start"),
              EqInlineKeyboardButton(">>", callback_data="{}_next({})".format(prefix, modulo_page)))]
     else:
-        pairs += [[EqInlineKeyboardButton("⬅️ Back", callback_data="bot_start")]]
+        pairs += [[EqInlineKeyboardButton("🏡 Home 🏡", callback_data="bot_start")]]
 
 
     return pairs
