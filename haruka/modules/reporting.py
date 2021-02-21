@@ -226,7 +226,7 @@ def buttons(bot: Bot, update):
             query.answer("❎ Failed to delete message!")
 
 
-__mod_name__ = "Reporting"
+__mod_name__ = "Reporting⚠"
 
 __help__ = """
  - /report <reason>: reply to a message to report it to admins.
