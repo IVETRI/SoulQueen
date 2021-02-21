@@ -30,6 +30,6 @@ def do_translate(bot: Bot, update: Update, args: List[str]):
 
 __help__ = """- /tr (language code) as reply to a long message.
 """
-__mod_name__ = "Translator🐱‍👓"
+__mod_name__ = "Translator🕵🏻‍♂️"
 
 dispatcher.add_handler(DisableAbleCommandHandler("tr", do_translate, pass_args=True))
