@@ -158,8 +158,7 @@ URL_DELETE_HANDLER = MessageHandler(
     edited_updates=True)
 
 
-__mod_name__ = "Url 
-Black🛂"
+__mod_name__ = "Url Black🛂"
 
 __help__ = """
 Domain blacklisting is used to stop certain domains from being mentioned in a group, Any time an url on that domain is mentioned, /
