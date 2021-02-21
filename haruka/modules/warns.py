@@ -437,7 +437,7 @@ be a sentence, encompass it with quotes, as such: `/addwarn "very angry" This is
  - /unwarn <userhandle>: same as /rmwarn
 """
 
-__mod_name__ = "Warnings"
+__mod_name__ = "Warnings❗"
 
 WARN_HANDLER = DisableAbleCommandHandler("warn", warn_user, pass_args=True, filters=Filters.group, admin_ok=True)
 RESET_WARN_HANDLER = DisableAbleCommandHandler(["resetwarn", "resetwarns"], reset_warns, pass_args=True, filters=Filters.group)
