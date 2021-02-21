@@ -161,7 +161,7 @@ url = "https://graphql.anilist.co"
 
 
 @run_async
-def airing(update: Update, context: CallbackContext):
+def airing(update: Update):
     message = update.effective_message
     search_str = message.text.split(" ", 1)
     if len(search_str) == 1:
@@ -184,7 +184,7 @@ def airing(update: Update, context: CallbackContext):
 
 
 @run_async
-def anime(update: Update, context: CallbackContext):
+def anime(update: Update, context):
     message = update.effective_message
     search = message.text.split(" ", 1)
     if len(search) == 1:
@@ -258,7 +258,7 @@ def anime(update: Update, context: CallbackContext):
 
 
 @run_async
-def character(update: Update, context: CallbackContext):
+def character(update: Update):
     message = update.effective_message
     search = message.text.split(" ", 1)
     if len(search) == 1:
@@ -293,7 +293,7 @@ def character(update: Update, context: CallbackContext):
 
 
 @run_async
-def manga(update: Update, context: CallbackContext):
+def manga(update: Update):
     message = update.effective_message
     search = message.text.split(" ", 1)
     if len(search) == 1:
@@ -360,7 +360,7 @@ def manga(update: Update, context: CallbackContext):
 
 
 @run_async
-def user(update: Update, context: CallbackContext):
+def user(update: Update):
     message = update.effective_message
     args = message.text.strip().split(" ", 1)
 
@@ -447,7 +447,7 @@ def user(update: Update, context: CallbackContext):
 
 
 @run_async
-def upcoming(update: Update, context: CallbackContext):
+def upcoming(update: Update):
     jikan = jikanpy.jikan.Jikan()
     upcoming = jikan.top("anime", page=1, subtype="upcoming")
 
@@ -462,7 +462,7 @@ def upcoming(update: Update, context: CallbackContext):
     update.effective_message.reply_text(upcoming_message)
 
 
-def button(update: Update, context: CallbackContext):
+def button(update: Update):
     bot = context.bot
     query = update.callback_query
     message = query.message
@@ -499,7 +499,7 @@ def button(update: Update, context: CallbackContext):
             query.answer("You are not allowed to use this.")
 
 
-def site_search(update: Update, context: CallbackContext, site: str):
+def site_search(update: Update, site: str):
     message = update.effective_message
     args = message.text.strip().split(" ", 1)
     more_results = True
@@ -560,13 +560,13 @@ def site_search(update: Update, context: CallbackContext, site: str):
 
 
 @run_async
-def kaizoku(update: Update, context: CallbackContext):
-    site_search(update, context, "kaizoku")
+def kaizoku(update: Update):
+    site_search(update, "kaizoku")
 
 
 @run_async
-def kayo(update: Update, context: CallbackContext):
-    site_search(update, context, "kayo")
+def kayo(update: Update):
+    site_search(update, "kayo")
 
 
 __help__ = """
