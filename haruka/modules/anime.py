@@ -447,7 +447,7 @@ def user(update: Update, context):
 
 
 @run_async
-def upcoming(update: Update, context: CallbackContext):
+def upcoming(update: Update, context):
     jikan = jikanpy.jikan.Jikan()
     upcoming = jikan.top("anime", page=1, subtype="upcoming")
 
@@ -462,7 +462,7 @@ def upcoming(update: Update, context: CallbackContext):
     update.effective_message.reply_text(upcoming_message)
 
 
-def button(update: Update, context: CallbackContext):
+def button(update: Update, context):
     bot = context.bot
     query = update.callback_query
     message = query.message
@@ -565,7 +565,7 @@ def kaizoku(update: Update, context):
 
 
 @run_async
-def kayo(update: Update, context: CallbackContext):
+def kayo(update: Update, context):
     site_search(update, context, "kayo")
 
 
