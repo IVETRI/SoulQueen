@@ -184,7 +184,7 @@ def airing(update: Update, context):
 
 
 @run_async
-def anime(update: Update, context: CallbackContext):
+def anime(update: Update, context):
     message = update.effective_message
     search = message.text.split(" ", 1)
     if len(search) == 1:
@@ -258,7 +258,7 @@ def anime(update: Update, context: CallbackContext):
 
 
 @run_async
-def character(update: Update, context: CallbackContext):
+def character(update: Update, context):
     message = update.effective_message
     search = message.text.split(" ", 1)
     if len(search) == 1:
@@ -293,7 +293,7 @@ def character(update: Update, context: CallbackContext):
 
 
 @run_async
-def manga(update: Update, context: CallbackContext):
+def manga(update: Update, context):
     message = update.effective_message
     search = message.text.split(" ", 1)
     if len(search) == 1:
@@ -360,7 +360,7 @@ def manga(update: Update, context: CallbackContext):
 
 
 @run_async
-def user(update: Update, context: CallbackContext):
+def user(update: Update, context):
     message = update.effective_message
     args = message.text.strip().split(" ", 1)
 
@@ -499,7 +499,7 @@ def button(update: Update, context: CallbackContext):
             query.answer("You are not allowed to use this.")
 
 
-def site_search(update: Update, context: CallbackContext, site: str):
+def site_search(update: Update, context, site: str):
     message = update.effective_message
     args = message.text.strip().split(" ", 1)
     more_results = True
@@ -560,7 +560,7 @@ def site_search(update: Update, context: CallbackContext, site: str):
 
 
 @run_async
-def kaizoku(update: Update, context: CallbackContext):
+def kaizoku(update: Update, context):
     site_search(update, context, "kaizoku")
 
 
@@ -572,15 +572,15 @@ def kayo(update: Update, context: CallbackContext):
 __help__ = """
 Get information about anime, manga or characters from [AniList](anilist.co).
 *Available commands:*
- • `/anime <anime>`*:* returns information about the anime.
- • `/character <character>`*:* returns information about the character.
- • `/animequote` *:* Get random Anime qoute.
- • `/manga <manga>`*:* returns information about the manga.
- • `/user <user>`*:* returns information about a MyAnimeList user.
- • `/upcoming`*:* returns a list of new anime in the upcoming seasons.
- • `/kaizoku <anime>`*:* search an anime on animekaizoku.com
- • `/kayo <anime>`*:* search an anime on animekayo.com
- • `/airing <anime>`*:* returns anime airing info.
+ •  /anime <anime>`*:* returns information about the anime.`
+ •  /character <character>`*:* returns information about the character.`
+ •  /animequote` *:* Get random Anime qoute.`
+ •  /manga <manga>`*:* returns information about the manga.`
+ •  /user <user>`*:* returns information about a MyAnimeList user.`
+ •  /upcoming`*:* returns a list of new anime in the upcoming seasons.`
+ •  /kaizoku <anime>`*:* search an anime on animekaizoku.com
+ •  /kayo <anime>`*:* search an anime on animekayo.com
+ •  /airing <anime>`*:* returns anime airing info.`
  """
 
 ANIME_HANDLER = DisableAbleCommandHandler("anime", anime)
