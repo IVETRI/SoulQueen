@@ -3,7 +3,7 @@ from telegram import Chat, User, ParseMode
 from telegram.error import BadRequest
 from telegram.utils.helpers import mention_html
 from telegram import ParseMode , Bot, Update
-from telegram.ext import CallbackContext, CommandHandler, Filters, run_async
+from telegram.ext import CommandHandler, Filters, run_async
 
 from DaisyX import dispatcher, REDIS
 from DaisyX.modules.disable import DisableAbleCommandHandler
@@ -19,7 +19,7 @@ from DaisyX.modules.helper_funcs.alternate import typing_action
 
 @run_async
 @typing_action
-def approval(update: Update, context: CallbackContext) -> str:
+def approval(update: Update, context) -> str:
     bot = context.bot
     args = context.args
     
@@ -66,7 +66,7 @@ def approval(update: Update, context: CallbackContext) -> str:
 @bot_admin
 @user_admin
 @typing_action
-def approve(update: Update, context: CallbackContext) -> str:
+def approve(update: Update, context) -> str:
     bot = context.bot
     args = context.args
     
@@ -114,7 +114,7 @@ def approve(update: Update, context: CallbackContext) -> str:
 @bot_admin
 @user_admin
 @typing_action
-def unapprove(update: Update, context: CallbackContext) -> str:
+def unapprove(update: Update, context) -> str:
     bot = context.bot
     args = context.args
     
@@ -160,7 +160,7 @@ def unapprove(update: Update, context: CallbackContext) -> str:
 @bot_admin
 @user_admin
 @typing_action
-def approved(update: Update, context: CallbackContext) -> str:
+def approved(update: Update, context) -> str:
     bot = context.bot
     args = context.args
     
