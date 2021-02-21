@@ -8,7 +8,7 @@ import requests
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.ext import CallbackQueryHandler, run_async
 
-from haruka import DEV_USERS, DRAGONS, OWNER_ID, dispatcher
+from haruka import SUDO_USERS, SUPPORT_USERS, OWNER_ID, dispatcher
 from haruka.modules.disable import DisableAbleCommandHandler
 
 info_btn = "More Information"
