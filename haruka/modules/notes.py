@@ -369,7 +369,7 @@ Tip: to retrieve a note without the formatting, use /get <notename> noformat
 This will retrieve the note and send it without formatting it; getting you the raw markdown, allowing you to make easy edits
 """
 
-__mod_name__ = "Notes"
+__mod_name__ = "Notes✍🏻"
 
 GET_HANDLER = CommandHandler("get", cmd_get, pass_args=True)
 HASH_GET_HANDLER = RegexHandler(r"^#[^\s]+", hash_get)
