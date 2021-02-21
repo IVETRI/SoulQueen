@@ -6,7 +6,7 @@ import bs4
 import jikanpy
 import requests
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
-from telegram.ext import CallbackContext, CallbackQueryHandler, run_async
+from telegram.ext import CallbackQueryHandler, run_async
 
 from haruka import SUDO_USERS, SUPPORT_USERS, OWNER_ID, dispatcher
 from haruka.modules.disable import DisableAbleCommandHandler
@@ -161,7 +161,7 @@ url = "https://graphql.anilist.co"
 
 
 @run_async
-def airing(update: Update, context: CallbackContext):
+def airing(update: Update, context):
     message = update.effective_message
     search_str = message.text.split(" ", 1)
     if len(search_str) == 1:
