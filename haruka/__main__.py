@@ -218,7 +218,7 @@ def control_panel(bot, update):
         else:
             text += "\nNo chat connected!"
 
-        keyboard += [[InlineKeyboardButton(text="Back", callback_data="bot_start")]]
+        keyboard += [[InlineKeyboardButton(text="🏡 HOME 🏡", callback_data="bot_start")]]
 
         update.effective_message.reply_text(text, reply_markup=InlineKeyboardMarkup(keyboard), parse_mode=ParseMode.MARKDOWN)
 
