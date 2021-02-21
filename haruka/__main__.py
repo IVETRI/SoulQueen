@@ -350,7 +350,7 @@ def help_button(bot: Bot, update: Update):
             if help_txt == False:
                 help_txt = HELPABLE[module].__help__
 
-            text = tld(chat.id, "*⚊❮❮❮❮｢Help for {} module」❯❯❯❯⚊*:\n{}").format(mod_name, help_txt)
+            text = tld(chat.id, "*⚊❮❮❮❮｢Help for {} module」❯❯❯❯⚊* :\n{}").format(mod_name, help_txt)
             query.message.reply_text(text=text,
                                      parse_mode=ParseMode.MARKDOWN,
                                      reply_markup=InlineKeyboardMarkup(
