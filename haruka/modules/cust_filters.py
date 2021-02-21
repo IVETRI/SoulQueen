@@ -281,7 +281,7 @@ If you want to save an image, gif, or sticker, or any other data, do the followi
 Now, anyone saying "hello" will be replied to with "Hello there! How are you?".
 """
 
-__mod_name__ = "Filters"
+__mod_name__ = "Filters📑"
 
 FILTER_HANDLER = DisableAbleCommandHandler("filter", filters)
 STOP_HANDLER = DisableAbleCommandHandler("stop", stop_filter)
