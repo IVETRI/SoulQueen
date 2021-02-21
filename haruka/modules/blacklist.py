@@ -190,7 +190,7 @@ def __import_data__(chat_id, data):
         sql.add_to_blacklist(chat_id, trigger)
 
 
-__mod_name__ = "Word Blacklists"
+__mod_name__ = "Blacklist🙅‍♂️"
 
 __help__ = """
 You can set blacklist filters to take automatic action on people when they say certain things. This is done using:
