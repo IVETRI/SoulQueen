@@ -621,7 +621,7 @@ you and your groups by removing spam flooders as quickly as possible. They can b
 /antispam
 """
 
-__mod_name__ = "Antispam security"
+__mod_name__ = "Antispam🚷"
 
 ANTISPAM_STATUS = CommandHandler("antispam", antispam, pass_args=True, filters=Filters.group)
 
