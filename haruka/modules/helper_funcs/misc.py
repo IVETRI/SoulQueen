@@ -53,9 +53,9 @@ def paginate_modules(chat_id, page_n: int, module_dict: Dict, prefix, chat=None)
                                     callback_data="{}_module({},{})".format(prefix, chat, x.__mod_name__.lower())) for x
              in module_dict.values()])
 
-    pairs = list(zip(modules[::2], modules[1::2]))
+    pairs = list(zip[modules[i * 3 : (i + 1) * 3] for i in range((len(modules) + 3 - 1) // 3)]))
 
-    if len(modules) % 2 == 1:
+    if len(modules) % 3 == 1:
         pairs.append((modules[-1],))
 
     max_num_pages = ceil(len(pairs) / 7)
