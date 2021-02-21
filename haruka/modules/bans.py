@@ -381,7 +381,7 @@ Available commands are:
 /tmute @username 2h; this mutes a user for 2 hours.
 """
 
-__mod_name__ = "Bans"
+__mod_name__ = "Bans🛑"
 
 BAN_HANDLER = DisableAbleCommandHandler("ban", ban, pass_args=True, filters=Filters.group, admin_ok=True)
 TEMPBAN_HANDLER = DisableAbleCommandHandler(["tban", "tempban"], temp_ban, pass_args=True, filters=Filters.group, admin_ok=True)
