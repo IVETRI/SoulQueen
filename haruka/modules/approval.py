@@ -5,14 +5,14 @@ from telegram.utils.helpers import mention_html
 from telegram import ParseMode , Bot, Update
 from telegram.ext import CommandHandler, Filters, run_async
 
-from DaisyX import dispatcher, REDIS
-from DaisyX.modules.disable import DisableAbleCommandHandler
-from DaisyX.modules.helper_funcs.chat_status import (
+from haruka import dispatcher, REDIS
+from haruka.modules.disable import DisableAbleCommandHandler
+from haruka.modules.helper_funcs.chat_status import (
     bot_admin,
     user_admin
 )
-from DaisyX.modules.helper_funcs.extraction import extract_user_and_text
-from DaisyX.modules.helper_funcs.alternate import typing_action
+from haruka.modules.helper_funcs.extraction import extract_user_and_text
+from haruka.modules.helper_funcs.alternate import typing_action
 
 
 
