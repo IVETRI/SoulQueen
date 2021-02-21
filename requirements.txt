@@ -20,7 +20,7 @@ PyLyrics
 hurry.filesize
 #translator
 googletrans==3.1.0a0
-
+jikanpy
 tldextract
 PyYAML
 pyowm
