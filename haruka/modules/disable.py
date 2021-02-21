@@ -152,7 +152,7 @@ if is_module_loaded(FILENAME):
             sql.disable_command(chat_id, disable_cmd)
 
 
-    __mod_name__ = "Command disabling"
+    __mod_name__ = "Disabling❎"
 
     __help__ = """
 Not everyone wants every feature that the bot offers. Some commands are best \
