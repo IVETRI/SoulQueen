@@ -25,8 +25,9 @@ PM_START = """Hello {}, I'M {}!
 
 I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of the things I can help you with.
 
-Deploy a bot like me [now](www.github.com/ivetri/SoulQueen)
+Deploy a bot like me [Now](www.github.com/IVETRI/SoulQueen)
 
+Watch A Video To Deploay A Bot Like Me. Click 👉🏻[HERE](www.github.com/ivetri/SoulQueen)👈🏻
 
 Click /help or Help button below to find out more about how to use me to my full potential.
 """
