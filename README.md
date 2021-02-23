@@ -2,10 +2,10 @@
 
 🤖🤖🤖
 
-I Product Your Group 🌐 Safe.
+Protect your Group Yourself 🛡
 
 ### Click Below Image to Deploy
-[![Deploy](https://telegra.ph/file/3a7cc940468301698cf53.gif)](https://heroku.com/deploy?template=https://github.com/IVETRI/SoulQueen.git)
+[![Deploy](https://telegra.ph/file/bb40440f17436b4095e61.jpg)](https://heroku.com/deploy?template=https://github.com/IVETRI/SoulQueen.git)
 
 ## DEPLOY
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/IVETRI/SoulQueen.git)
@@ -16,10 +16,11 @@ Can be found on telegram as [SoulQueen](https://t.me/SoulQueenBot).
 
 Alternatively, [find me on telegram](https://t.me/iMvEtRi)! (Keep all support questions in the support chat, where more people can help you.)
 
-You can also join our support group [here!](https://t.me/SoulQueenBot)
+# Channel
+You can also join our Channel : [Tamil BotZ](https://t.me/TamilBotZ)
 
 # Group
-[Join Discuss Group](https://t.me/TamilSupport)
+You can also join our Group : [Tamil Support](https://t.me/TamilSupport)
 
 # Report error
 Report your problem along with your name to [this person](https://t.me/iMvEtRi)
