@@ -27,7 +27,7 @@ I'm a modular group management bot with a few fun extras! Have a look at the fol
 
 Deploy a bot like me [Now](www.github.com/IVETRI/SoulQueen)
 
-Watch A Video To Deploay A Bot Like Me. Click 👉🏻[HERE](www.github.com/ivetri/SoulQueen)👈🏻
+Watch A Video To Deploay A Bot Like Me. Click 👉🏻[HERE](https://youtu.be/reQQKqbd1-k)👈🏻
 
 Click /help or Help button below to find out more about how to use me to my full potential.
 """
