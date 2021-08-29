@@ -1,7 +1,7 @@
 
 {
   "name": "Soul Queen",
-  "logo": "https://telegra.ph/file/bb40440f17436b4095e61.jpg",
+  "logo": "https://telegra.ph/file/e67e1f6ed6c582f775d73.jpg",
   "description": "Modular Telegram Group Management Bot!",
   "keywords": [
     "telegram",
@@ -10,7 +10,7 @@
     "manager",
     "3"
   ],
-  "repository": "hhttps://github.com/ivetri/SoulQueen",
+  "repository": "https://t.me/KicchaRequest",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable env variables",
@@ -22,11 +22,11 @@
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "1492186775"
+      "value": "1166348342"
     },
     "OWNER_USERNAME": {
       "description": "Your username",
-      "value": "iMvEtRi"
+      "value": "Anikha_Assistant_official_owner"
     },
   
     "URL": {
@@ -35,23 +35,23 @@
     },
     "MESSAGE_DUMP": {
       "description": "optional: a chat where your replied saved messages are stored, to stop people deleting their old",
-      "value": "-1007777777777"
+      "value": "-100"
     },
     "SUDO_USERS": {
       "description": "A space separated list of user_ids which should be considered sudo users",
-      "value": "254318997 1492186775 1169076058"
+      "value": "254318997"
     },
     "SUPPORT_USERS": {
       "description": "A space separated list of user_ids which should be considered support users (can gban/ungban, nothing else)",
-      "value": "1492186775 1169076058 254318997"
+      "value": "1492186775"
     },
     "WHITELIST_USERS": {
       "description": "A space separated list of user_ids which should be considered whitelisted - they can't be banned.",
-      "value": "1492186775 254318997 1169076058"
+      "value": "1492186775"
     },
     "DONATION_LINK": {
       "description": "Optional: link where you would like to receive donations.",
-      "value": "https://www.paypal.me/Your_id_here"
+      "value": "https://t.me/KicchaRequest"
     },
     "PORT": {
       "description": "Port to use for your webhooks",
